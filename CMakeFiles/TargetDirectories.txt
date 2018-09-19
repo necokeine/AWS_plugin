@@ -1,0 +1,3 @@
+/Users/necokeine/develop/kafka_plugin/CMakeFiles/rebuild_cache.dir
+/Users/necokeine/develop/kafka_plugin/CMakeFiles/edit_cache.dir
+/Users/necokeine/develop/kafka_plugin/CMakeFiles/kinesis_plugin.dir

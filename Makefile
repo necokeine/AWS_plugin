@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/necokeine/develop/kafka_plugin
+CMAKE_SOURCE_DIR = /Users/necokeine/develop/AWS_plugin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/necokeine/develop/kafka_plugin
+CMAKE_BINARY_DIR = /Users/necokeine/develop/AWS_plugin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/necokeine/develop/kafka_plugin/CMakeFiles /Users/necokeine/develop/kafka_plugin/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/necokeine/develop/AWS_plugin/CMakeFiles /Users/necokeine/develop/AWS_plugin/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/necokeine/develop/kafka_plugin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/necokeine/develop/AWS_plugin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,35 +123,59 @@ kinesis_plugin/fast:
 	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/build
 .PHONY : kinesis_plugin/fast
 
-# target to build an object file
-kinesis_plugin.o:
-	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_plugin.o
+kinesis_plugin.o: kinesis_plugin.cpp.o
+
 .PHONY : kinesis_plugin.o
 
-# target to preprocess a source file
-kinesis_plugin.i:
-	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_plugin.i
+# target to build an object file
+kinesis_plugin.cpp.o:
+	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.o
+.PHONY : kinesis_plugin.cpp.o
+
+kinesis_plugin.i: kinesis_plugin.cpp.i
+
 .PHONY : kinesis_plugin.i
 
-# target to generate assembly for a file
-kinesis_plugin.s:
-	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_plugin.s
+# target to preprocess a source file
+kinesis_plugin.cpp.i:
+	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.i
+.PHONY : kinesis_plugin.cpp.i
+
+kinesis_plugin.s: kinesis_plugin.cpp.s
+
 .PHONY : kinesis_plugin.s
 
-# target to build an object file
-kinesis_producer.o:
-	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_producer.o
+# target to generate assembly for a file
+kinesis_plugin.cpp.s:
+	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.s
+.PHONY : kinesis_plugin.cpp.s
+
+kinesis_producer.o: kinesis_producer.cpp.o
+
 .PHONY : kinesis_producer.o
 
-# target to preprocess a source file
-kinesis_producer.i:
-	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_producer.i
+# target to build an object file
+kinesis_producer.cpp.o:
+	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.o
+.PHONY : kinesis_producer.cpp.o
+
+kinesis_producer.i: kinesis_producer.cpp.i
+
 .PHONY : kinesis_producer.i
 
-# target to generate assembly for a file
-kinesis_producer.s:
-	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_producer.s
+# target to preprocess a source file
+kinesis_producer.cpp.i:
+	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.i
+.PHONY : kinesis_producer.cpp.i
+
+kinesis_producer.s: kinesis_producer.cpp.s
+
 .PHONY : kinesis_producer.s
+
+# target to generate assembly for a file
+kinesis_producer.cpp.s:
+	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.s
+.PHONY : kinesis_producer.cpp.s
 
 # Help Target
 help:

@@ -1,5 +1,4 @@
-#include "kinesis_producer.hpp"
-
+#include "include/eosio/kinesis_plugin/kinesis_producer.hpp"
 
 int main(int argc, char **argv)
 {
@@ -11,4 +10,3 @@ int main(int argc, char **argv)
 
     producer.kinesis_destory();
 }
-

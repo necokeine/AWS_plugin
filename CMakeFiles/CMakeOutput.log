@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/necokeine/develop/kafka_plugin/CMakeFiles/3.12.1/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/necokeine/develop/AWS_plugin/CMakeFiles/3.12.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is AppleClang, found in "/Users/necokeine/develop/kafka_plugin/CMakeFiles/3.12.1/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/necokeine/develop/AWS_plugin/CMakeFiles/3.12.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1e006/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1e006.dir/build.make CMakeFiles/cmTC_1e006.dir/build
-Building C object CMakeFiles/cmTC_1e006.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_1e006.dir/testCCompiler.c.o   -c /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_1e006
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e006.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1e006.dir/testCCompiler.c.o  -o cmTC_1e006 
+Run Build Command:"/usr/bin/make" "cmTC_62620/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_62620.dir/build.make CMakeFiles/cmTC_62620.dir/build
+Building C object CMakeFiles/cmTC_62620.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_62620.dir/testCCompiler.c.o   -c /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_62620
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62620.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_62620.dir/testCCompiler.c.o  -o cmTC_62620 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_993be/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_993be.dir/build.make CMakeFiles/cmTC_993be.dir/build
-Building C object CMakeFiles/cmTC_993be.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_993be.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.1/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_993be
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_993be.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_993be.dir/CMakeCCompilerABI.c.o  -o cmTC_993be 
+Run Build Command:"/usr/bin/make" "cmTC_34f17/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_34f17.dir/build.make CMakeFiles/cmTC_34f17.dir/build
+Building C object CMakeFiles/cmTC_34f17.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_34f17.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_34f17
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f17.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_34f17.dir/CMakeCCompilerABI.c.o  -o cmTC_34f17 
 Apple LLVM version 9.1.0 (clang-902.0.39.2)
 Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_993be -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_993be.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_34f17 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_34f17.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-351.8
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -64,20 +64,20 @@ Framework search paths:
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_993be/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_993be.dir/build.make CMakeFiles/cmTC_993be.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_993be.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_993be.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.1/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_993be]
-  ignore line: [/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_993be.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_993be.dir/CMakeCCompilerABI.c.o  -o cmTC_993be ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_34f17/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_34f17.dir/build.make CMakeFiles/cmTC_34f17.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_34f17.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_34f17.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_34f17]
+  ignore line: [/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f17.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_34f17.dir/CMakeCCompilerABI.c.o  -o cmTC_34f17 ]
   ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.2)]
   ignore line: [Target: x86_64-apple-darwin17.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_993be -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_993be.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_34f17 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_34f17.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -88,11 +88,11 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_993be] ==> ignore
+    arg [cmTC_34f17] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_993be.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_34f17.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
@@ -111,15 +111,15 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0f7e7/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0f7e7.dir/build.make CMakeFiles/cmTC_0f7e7.dir/build
-Building C object CMakeFiles/cmTC_0f7e7.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_0f7e7.dir/feature_tests.c.o   -c /Users/necokeine/develop/kafka_plugin/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0f7e7
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f7e7.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0f7e7.dir/feature_tests.c.o  -o cmTC_0f7e7 
+Run Build Command:"/usr/bin/make" "cmTC_ddecc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ddecc.dir/build.make CMakeFiles/cmTC_ddecc.dir/build
+Building C object CMakeFiles/cmTC_ddecc.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ddecc.dir/feature_tests.c.o   -c /Users/necokeine/develop/AWS_plugin/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ddecc
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddecc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ddecc.dir/feature_tests.c.o  -o cmTC_ddecc 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -129,15 +129,15 @@ Linking C executable cmTC_0f7e7
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0292b/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0292b.dir/build.make CMakeFiles/cmTC_0292b.dir/build
-Building C object CMakeFiles/cmTC_0292b.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_0292b.dir/feature_tests.c.o   -c /Users/necokeine/develop/kafka_plugin/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0292b
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0292b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0292b.dir/feature_tests.c.o  -o cmTC_0292b 
+Run Build Command:"/usr/bin/make" "cmTC_d01b2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d01b2.dir/build.make CMakeFiles/cmTC_d01b2.dir/build
+Building C object CMakeFiles/cmTC_d01b2.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_d01b2.dir/feature_tests.c.o   -c /Users/necokeine/develop/AWS_plugin/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d01b2
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d01b2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d01b2.dir/feature_tests.c.o  -o cmTC_d01b2 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -147,15 +147,15 @@ Linking C executable cmTC_0292b
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_81cc1/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_81cc1.dir/build.make CMakeFiles/cmTC_81cc1.dir/build
-Building C object CMakeFiles/cmTC_81cc1.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_81cc1.dir/feature_tests.c.o   -c /Users/necokeine/develop/kafka_plugin/CMakeFiles/feature_tests.c
-Linking C executable cmTC_81cc1
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81cc1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81cc1.dir/feature_tests.c.o  -o cmTC_81cc1 
+Run Build Command:"/usr/bin/make" "cmTC_da0b5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_da0b5.dir/build.make CMakeFiles/cmTC_da0b5.dir/build
+Building C object CMakeFiles/cmTC_da0b5.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_da0b5.dir/feature_tests.c.o   -c /Users/necokeine/develop/AWS_plugin/CMakeFiles/feature_tests.c
+Linking C executable cmTC_da0b5
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da0b5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_da0b5.dir/feature_tests.c.o  -o cmTC_da0b5 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -163,32 +163,32 @@ Linking C executable cmTC_81cc1
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_89b1f/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_89b1f.dir/build.make CMakeFiles/cmTC_89b1f.dir/build
-Building CXX object CMakeFiles/cmTC_89b1f.dir/testCXXCompiler.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_89b1f.dir/testCXXCompiler.cxx.o -c /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_89b1f
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89b1f.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_89b1f.dir/testCXXCompiler.cxx.o  -o cmTC_89b1f 
+Run Build Command:"/usr/bin/make" "cmTC_6d790/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6d790.dir/build.make CMakeFiles/cmTC_6d790.dir/build
+Building CXX object CMakeFiles/cmTC_6d790.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_6d790.dir/testCXXCompiler.cxx.o -c /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6d790
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d790.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6d790.dir/testCXXCompiler.cxx.o  -o cmTC_6d790 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dd9f9/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dd9f9.dir/build.make CMakeFiles/cmTC_dd9f9.dir/build
-Building CXX object CMakeFiles/cmTC_dd9f9.dir/CMakeCXXCompilerABI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_dd9f9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_dd9f9
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd9f9.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_dd9f9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dd9f9 
+Run Build Command:"/usr/bin/make" "cmTC_c8064/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c8064.dir/build.make CMakeFiles/cmTC_c8064.dir/build
+Building CXX object CMakeFiles/cmTC_c8064.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_c8064.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c8064
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8064.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c8064.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c8064 
 Apple LLVM version 9.1.0 (clang-902.0.39.2)
 Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_dd9f9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_dd9f9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_c8064 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c8064.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-351.8
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -201,20 +201,20 @@ Framework search paths:
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dd9f9/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dd9f9.dir/build.make CMakeFiles/cmTC_dd9f9.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_dd9f9.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_dd9f9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_dd9f9]
-  ignore line: [/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd9f9.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_dd9f9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dd9f9 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c8064/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c8064.dir/build.make CMakeFiles/cmTC_c8064.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c8064.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_c8064.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c8064]
+  ignore line: [/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8064.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c8064.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c8064 ]
   ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.2)]
   ignore line: [Target: x86_64-apple-darwin17.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_dd9f9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_dd9f9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_c8064 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c8064.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -225,11 +225,11 @@ Parsed CXX implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_dd9f9] ==> ignore
+    arg [cmTC_c8064] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_dd9f9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_c8064.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
@@ -249,15 +249,15 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ce2dc/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ce2dc.dir/build.make CMakeFiles/cmTC_ce2dc.dir/build
-Building CXX object CMakeFiles/cmTC_ce2dc.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_ce2dc.dir/feature_tests.cxx.o -c /Users/necokeine/develop/kafka_plugin/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ce2dc
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce2dc.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ce2dc.dir/feature_tests.cxx.o  -o cmTC_ce2dc 
+Run Build Command:"/usr/bin/make" "cmTC_0be27/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0be27.dir/build.make CMakeFiles/cmTC_0be27.dir/build
+Building CXX object CMakeFiles/cmTC_0be27.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_0be27.dir/feature_tests.cxx.o -c /Users/necokeine/develop/AWS_plugin/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0be27
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0be27.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0be27.dir/feature_tests.cxx.o  -o cmTC_0be27 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -320,15 +320,15 @@ Linking CXX executable cmTC_ce2dc
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_64e24/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_64e24.dir/build.make CMakeFiles/cmTC_64e24.dir/build
-Building CXX object CMakeFiles/cmTC_64e24.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_64e24.dir/feature_tests.cxx.o -c /Users/necokeine/develop/kafka_plugin/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_64e24
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64e24.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_64e24.dir/feature_tests.cxx.o  -o cmTC_64e24 
+Run Build Command:"/usr/bin/make" "cmTC_4ed70/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4ed70.dir/build.make CMakeFiles/cmTC_4ed70.dir/build
+Building CXX object CMakeFiles/cmTC_4ed70.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_4ed70.dir/feature_tests.cxx.o -c /Users/necokeine/develop/AWS_plugin/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4ed70
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed70.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4ed70.dir/feature_tests.cxx.o  -o cmTC_4ed70 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -391,15 +391,15 @@ Linking CXX executable cmTC_64e24
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42e0b/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_42e0b.dir/build.make CMakeFiles/cmTC_42e0b.dir/build
-Building CXX object CMakeFiles/cmTC_42e0b.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_42e0b.dir/feature_tests.cxx.o -c /Users/necokeine/develop/kafka_plugin/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_42e0b
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42e0b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_42e0b.dir/feature_tests.cxx.o  -o cmTC_42e0b 
+Run Build Command:"/usr/bin/make" "cmTC_f7f58/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f7f58.dir/build.make CMakeFiles/cmTC_f7f58.dir/build
+Building CXX object CMakeFiles/cmTC_f7f58.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f7f58.dir/feature_tests.cxx.o -c /Users/necokeine/develop/AWS_plugin/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f7f58
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7f58.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f7f58.dir/feature_tests.cxx.o  -o cmTC_f7f58 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -462,15 +462,15 @@ Linking CXX executable cmTC_42e0b
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/necokeine/develop/kafka_plugin/CMakeFiles/CMakeTmp
+Change Dir: /Users/necokeine/develop/AWS_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7e378/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7e378.dir/build.make CMakeFiles/cmTC_7e378.dir/build
-Building CXX object CMakeFiles/cmTC_7e378.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_7e378.dir/feature_tests.cxx.o -c /Users/necokeine/develop/kafka_plugin/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7e378
-/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e378.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7e378.dir/feature_tests.cxx.o  -o cmTC_7e378 
+Run Build Command:"/usr/bin/make" "cmTC_bd2af/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bd2af.dir/build.make CMakeFiles/cmTC_bd2af.dir/build
+Building CXX object CMakeFiles/cmTC_bd2af.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_bd2af.dir/feature_tests.cxx.o -c /Users/necokeine/develop/AWS_plugin/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bd2af
+/usr/local/Cellar/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd2af.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bd2af.dir/feature_tests.cxx.o  -o cmTC_bd2af 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

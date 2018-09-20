@@ -158,7 +158,7 @@ using kafka_producer_ptr = std::shared_ptr<class kafka_producer>;
             condition.notify_one();
         }
 
-    }
+    }  // namespace
 
     void kafka_plugin_impl::accepted_transaction(const chain::transaction_metadata_ptr &t) {
         try {

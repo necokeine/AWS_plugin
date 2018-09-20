@@ -8,21 +8,27 @@
 #include <aws/core/utils/Outcome.h>
 
 namespace eosio {
+const char *kSTREAM_NAME = "EOS_Asia_Kinesis";
 
 class kinesis_producer {
  public:
-  kinesis_producer();
+  kinesis_producer() {}
 
   int kinesis_init() {
     // m_options.loggingOptions.logLevel = Aws::Utils::Logging::LogLevel::Info; // Turn on log.
     Aws::InitAPI(m_options);
-    m_client = new Aws::Kinesis::KinesisClient();
+
+    Aws::Client::ClientConfiguration clientConfig;
+    // set your region
+    clientConfig.region = Aws::Region::AP_NORTHEAST_1;
+    m_client = new Aws::Kinesis::KinesisClient(clientConfig);
     return 0;
   }
 
   int kinesis_sendmsg(int trxtype, unsigned char *msgstr, size_t length) {
+    // trxtype => to different stream.
     Aws::Kinesis::Model::PutRecordRequest request;
-    request.SetStreamName("EOS_Asia_Kinesis");
+    request.SetStreamName(kSTREAM_NAME);
     Aws::Utils::ByteBuffer data(msgstr, length);
     request.SetData(data);
 

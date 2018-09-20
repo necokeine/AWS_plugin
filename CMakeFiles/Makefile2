@@ -59,10 +59,10 @@ RM = /usr/local/Cellar/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/necokeine/develop/kafka_plugin
+CMAKE_SOURCE_DIR = /Users/necokeine/develop/AWS_plugin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/necokeine/develop/kafka_plugin
+CMAKE_BINARY_DIR = /Users/necokeine/develop/AWS_plugin
 
 #=============================================================================
 # Target rules for target CMakeFiles/kinesis_plugin.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/necokeine/develop/kafka_plugin
 CMakeFiles/kinesis_plugin.dir/all:
 	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/depend
 	$(MAKE) -f CMakeFiles/kinesis_plugin.dir/build.make CMakeFiles/kinesis_plugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/necokeine/develop/kafka_plugin/CMakeFiles --progress-num=1,2,3 "Built target kinesis_plugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/necokeine/develop/AWS_plugin/CMakeFiles --progress-num=1,2,3 "Built target kinesis_plugin"
 .PHONY : CMakeFiles/kinesis_plugin.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/kinesis_plugin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kinesis_plugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/necokeine/develop/kafka_plugin/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/necokeine/develop/AWS_plugin/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kinesis_plugin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/necokeine/develop/kafka_plugin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/necokeine/develop/AWS_plugin/CMakeFiles 0
 .PHONY : CMakeFiles/kinesis_plugin.dir/rule
 
 # Convenience name for target.

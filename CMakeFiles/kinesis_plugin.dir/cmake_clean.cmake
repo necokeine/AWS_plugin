@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/kinesis_plugin.dir/kinesis_plugin.o"
-  "CMakeFiles/kinesis_plugin.dir/kinesis_producer.o"
+  "CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.o"
+  "CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.o"
   "libkinesis_plugin.pdb"
   "libkinesis_plugin.a"
 )

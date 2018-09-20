@@ -1,2 +1,2 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libkinesis_plugin.a  CMakeFiles/kinesis_plugin.dir/kinesis_plugin.o CMakeFiles/kinesis_plugin.dir/kinesis_producer.o
+/Library/Developer/CommandLineTools/usr/bin/ar qc libkinesis_plugin.a  CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.o CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.o
 /Library/Developer/CommandLineTools/usr/bin/ranlib libkinesis_plugin.a

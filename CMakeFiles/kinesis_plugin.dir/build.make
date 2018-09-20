@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/necokeine/develop/kafka_plugin
+CMAKE_SOURCE_DIR = /Users/necokeine/develop/AWS_plugin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/necokeine/develop/kafka_plugin
+CMAKE_BINARY_DIR = /Users/necokeine/develop/AWS_plugin
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kinesis_plugin.dir/depend.make
@@ -57,45 +57,45 @@ include CMakeFiles/kinesis_plugin.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/kinesis_plugin.dir/flags.make
 
-CMakeFiles/kinesis_plugin.dir/kinesis_plugin.o: CMakeFiles/kinesis_plugin.dir/flags.make
-CMakeFiles/kinesis_plugin.dir/kinesis_plugin.o: kinesis_plugin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/necokeine/develop/kafka_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kinesis_plugin.dir/kinesis_plugin.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kinesis_plugin.dir/kinesis_plugin.o -c /Users/necokeine/develop/kafka_plugin/kinesis_plugin.cpp
+CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.o: CMakeFiles/kinesis_plugin.dir/flags.make
+CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.o: kinesis_plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/necokeine/develop/AWS_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.o -c /Users/necokeine/develop/AWS_plugin/kinesis_plugin.cpp
 
-CMakeFiles/kinesis_plugin.dir/kinesis_plugin.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kinesis_plugin.dir/kinesis_plugin.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/necokeine/develop/kafka_plugin/kinesis_plugin.cpp > CMakeFiles/kinesis_plugin.dir/kinesis_plugin.i
+CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/necokeine/develop/AWS_plugin/kinesis_plugin.cpp > CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.i
 
-CMakeFiles/kinesis_plugin.dir/kinesis_plugin.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kinesis_plugin.dir/kinesis_plugin.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/necokeine/develop/kafka_plugin/kinesis_plugin.cpp -o CMakeFiles/kinesis_plugin.dir/kinesis_plugin.s
+CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/necokeine/develop/AWS_plugin/kinesis_plugin.cpp -o CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.s
 
-CMakeFiles/kinesis_plugin.dir/kinesis_producer.o: CMakeFiles/kinesis_plugin.dir/flags.make
-CMakeFiles/kinesis_plugin.dir/kinesis_producer.o: kinesis_producer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/necokeine/develop/kafka_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kinesis_plugin.dir/kinesis_producer.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kinesis_plugin.dir/kinesis_producer.o -c /Users/necokeine/develop/kafka_plugin/kinesis_producer.cpp
+CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.o: CMakeFiles/kinesis_plugin.dir/flags.make
+CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.o: kinesis_producer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/necokeine/develop/AWS_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.o -c /Users/necokeine/develop/AWS_plugin/kinesis_producer.cpp
 
-CMakeFiles/kinesis_plugin.dir/kinesis_producer.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kinesis_plugin.dir/kinesis_producer.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/necokeine/develop/kafka_plugin/kinesis_producer.cpp > CMakeFiles/kinesis_plugin.dir/kinesis_producer.i
+CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/necokeine/develop/AWS_plugin/kinesis_producer.cpp > CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.i
 
-CMakeFiles/kinesis_plugin.dir/kinesis_producer.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kinesis_plugin.dir/kinesis_producer.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/necokeine/develop/kafka_plugin/kinesis_producer.cpp -o CMakeFiles/kinesis_plugin.dir/kinesis_producer.s
+CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/necokeine/develop/AWS_plugin/kinesis_producer.cpp -o CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.s
 
 # Object files for target kinesis_plugin
 kinesis_plugin_OBJECTS = \
-"CMakeFiles/kinesis_plugin.dir/kinesis_plugin.o" \
-"CMakeFiles/kinesis_plugin.dir/kinesis_producer.o"
+"CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.o" \
+"CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.o"
 
 # External object files for target kinesis_plugin
 kinesis_plugin_EXTERNAL_OBJECTS =
 
-libkinesis_plugin.a: CMakeFiles/kinesis_plugin.dir/kinesis_plugin.o
-libkinesis_plugin.a: CMakeFiles/kinesis_plugin.dir/kinesis_producer.o
+libkinesis_plugin.a: CMakeFiles/kinesis_plugin.dir/kinesis_plugin.cpp.o
+libkinesis_plugin.a: CMakeFiles/kinesis_plugin.dir/kinesis_producer.cpp.o
 libkinesis_plugin.a: CMakeFiles/kinesis_plugin.dir/build.make
 libkinesis_plugin.a: CMakeFiles/kinesis_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/necokeine/develop/kafka_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libkinesis_plugin.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/necokeine/develop/AWS_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libkinesis_plugin.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/kinesis_plugin.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kinesis_plugin.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/kinesis_plugin.dir/clean:
 .PHONY : CMakeFiles/kinesis_plugin.dir/clean
 
 CMakeFiles/kinesis_plugin.dir/depend:
-	cd /Users/necokeine/develop/kafka_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/necokeine/develop/kafka_plugin /Users/necokeine/develop/kafka_plugin /Users/necokeine/develop/kafka_plugin /Users/necokeine/develop/kafka_plugin /Users/necokeine/develop/kafka_plugin/CMakeFiles/kinesis_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/necokeine/develop/AWS_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/necokeine/develop/AWS_plugin /Users/necokeine/develop/AWS_plugin /Users/necokeine/develop/AWS_plugin /Users/necokeine/develop/AWS_plugin /Users/necokeine/develop/AWS_plugin/CMakeFiles/kinesis_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kinesis_plugin.dir/depend
 

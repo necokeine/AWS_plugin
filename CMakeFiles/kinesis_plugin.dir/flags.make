@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_FLAGS =   -std=gnu++11
 
-CXX_DEFINES = 
+CXX_DEFINES = -DAWS_SDK_VERSION_MAJOR=1 -DAWS_SDK_VERSION_MINOR=6 -DAWS_SDK_VERSION_PATCH=11 -DPLATFORM_APPLE
 
-CXX_INCLUDES = -I/usr/local/include -I/Users/necokeine/develop/kafka_plugin/include 
+CXX_INCLUDES = -I/Users/necokeine/develop/AWS_plugin/include -isystem /usr/local/include 
 
